@@ -44,3 +44,61 @@ header{
 .banner-image{
     width: 500px;  
 }
+/* flower-tree-section start............ */
+.flower-tree-section{
+    text-align: center;
+}
+.flower-tree-section h3{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+.flower-tree-section p{
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.flower-tree-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.flower-img{
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+}
+.first-flower-background{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);   
+}
+.second-flower-background{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);   
+}
+.third-flower-background{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);   
+}
+.flower-anchor a{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+}
+.flower-anchor{
+    margin-top: 20px;
+}
