@@ -6,8 +6,17 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
-/* Header section start */
+.red-text{
+    color: #E55473 ;
+}
+.primary-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* Header section style start here.......... */
 header{
     background-color: #FCEEF1;
     width: 100%;
@@ -44,19 +53,12 @@ header{
 .banner-image{
     width: 500px;  
 }
-/* flower-tree-section start............ */
+/* Flower tree section style start here............ */
 .flower-tree-section{
     text-align: center;
-}
-.flower-tree-section h3{
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 30px;
-    font-weight: 800;
     margin-top: 110px;
-    margin-bottom: 30px;
 }
+
 .flower-tree-section p{
     color: #27272799;
     text-align: center;
@@ -102,7 +104,7 @@ header{
 .flower-anchor{
     margin-top: 20px;
 }
-/* Hot Deal section start here............ */
+/* Hot Deal section style start here............ */
 .hot-deal-section{
     margin-top: 100px;
     display: flex;
@@ -111,17 +113,10 @@ header{
     gap: 100px;
     padding: 70px 300px 70px 300px;
     background-color: #FCEEF1;
-
 }
 .hot-deal-details{
     max-width: 500px;
     text-align: center;
-}
-.hot-deal-details h3{
-    color: #272727;
-    font-family: Lato;
-    font-size: 30px;
-    margin-bottom: 20px;
 }
 .hot-deal-details p{
     color: #27272799;
@@ -131,5 +126,25 @@ header{
     margin-bottom: 10px;
 }
 .hot-deal-img{
+    width: 270px;
+}
+/* Instagram section style start here............ */
+.instagram-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.instagram-section p{
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.instagram-image-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.instagram-image{
     width: 300px;
 }
