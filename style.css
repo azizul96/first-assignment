@@ -102,3 +102,34 @@ header{
 .flower-anchor{
     margin-top: 20px;
 }
+/* Hot Deal section start here............ */
+.hot-deal-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 70px 300px 70px 300px;
+    background-color: #FCEEF1;
+
+}
+.hot-deal-details{
+    max-width: 500px;
+    text-align: center;
+}
+.hot-deal-details h3{
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.hot-deal-details p{
+    color: #27272799;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.hot-deal-img{
+    width: 300px;
+}
