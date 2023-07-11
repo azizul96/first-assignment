@@ -178,13 +178,15 @@ header{
 }
 /* Subscribe form style start here............ */
 .subscribe-form{
-    margin: 100px 240px 100px 240px;
+    max-width: 1200px;
+    margin: 0 auto;
     background-image: url("./asset/Rectangle\ 9.png");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     padding: 100px 0px;
     background-position: center;
+    margin-bottom: 50px;
 }
 .subscribe-form p{
     color: #27272799;
